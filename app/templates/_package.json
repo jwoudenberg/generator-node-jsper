@@ -1,0 +1,20 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "0.1.0",
+  "description": "<%= projectDesc %>",
+  "license": "MIT",
+  "main": "<%= projectIndex %>",
+  "repository": {
+      "type": "git",
+      "url": "<%= gitLink %>"
+  },
+  "author": {
+    "name": "Jasper Woudenberg",
+    "email": "mail@jasperwoudenberg.com",
+    "url": "https://github.com/jwoudenberg"
+  },
+  "bugs": {
+    "url": "<%= gitIssues %>"
+  },
+  "homepage": "<%= gitPage %>"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "generator-node-jsper",
+  "version": "0.1.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "jwoudenberg/generator-node-jsper",
+  "author": {
+    "name": "Jasper Woudenberg",
+    "email": "mail@jasperwoudenberg.com",
+    "url": "https://github.com/jwoudenberg"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "change-case": "^2.1.1",
+    "github": "^0.2.1",
+    "yeoman-generator": "~0.16.0",
+    "yosay": "^0.1.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
