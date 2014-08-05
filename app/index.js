@@ -56,7 +56,7 @@ var NodeJsperGenerator = yeoman.generators.Base.extend({
 
         this.destinationRoot(changeCase.paramCase(this.projectName));
         this.projectIndex = util.format('lib/%s.js',
-                                        changeCase.camelCase(this.projectName));
+                                        changeCase.paramCase(this.projectName));
 
         github.repos.create({
             name: this.projectName,
