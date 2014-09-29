@@ -78,6 +78,7 @@ var NodeJsperGenerator = yeoman.generators.Base.extend({
         this.copy('npmignore', '.npmignore');
         this.copy('editorconfig', '.editorconfig');
         this.copy('jshintrc', '.jshintrc');
+        this.copy('gulpfile.js', 'gulpfile.js');
 
         this.template('_package.json', 'package.json');
         this.mkdir('lib');
